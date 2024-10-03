@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Food</title>
+    <link rel="stylesheet" type="text/css" href="new.css"/>
+</head>
+
+<body>
+    <div>
+        <h1>MealGPT</h1>
+        <p>Personalized Food Planner</p>
+
+        <h3>Preference in Food</h3>
+        <input type="text" id="foodType" value="Type of Food"></div>
+
+        <h4>Start and End Date of Food Journey</h4>
+        <h7>Start Date:</h7>
+        <input type="text" id="startDate" value="mm/dd/yyyy"></div>
+        <h7>End Date:</h7>
+        <input type="text" id="endDate" value="mm/dd/yyyy"></div>
+
+        <h5>Meals per day</h5>
+        <input type="text" id="numOfMeals" value=" Number of Meals"></div>
+
+
+        <form id="chat-form">
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="calender-image-container"> 
+            <img id ="calander-image" src="Meal Cal.png" height=200></img>
+        </div>
+
+        <div>
+            <h2>Response:</h2>
+            <textarea id="response" rows="20" style="width: 80%;" readonly></textarea>
+        </div>
+    </div>
+</body>
+
+<script src="new.js"></script>

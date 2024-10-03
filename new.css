@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f9f4eb;
+}
+
+p {
+    color: gray;
+    margin-top: 0px;
+}
+
+h1 {
+    color: rgb(248, 147, 164);
+    font-family: primitive;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 1px;
+
+    color:black;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+h4 { 
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-top: 30px; 
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#search {
+    margin-top: 20px; 
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.20rem;
+}
+
+#search:hover {
+    cursor:pointer;
+    background-color: pink;
+}
+
+.calender-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#chat-form {
+    margin-top: 10px;
+}
+
+button {
+    background-color: pink;
+}
